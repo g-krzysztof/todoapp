@@ -1,0 +1,32 @@
+.form {
+    &__input-task {
+        outline: none;
+        width: 75%;
+        margin: 0 0 5px 0;
+        font-size: 16px;
+    }
+    &__wrapper {
+        width: 76%;
+        margin: 0 auto 5px auto;
+        padding: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &__priority-text {
+        font-size: 14px;
+    }
+    &__priority-checkbox {
+        padding: 0;
+    }
+    &__date-text {
+        font-size: 14px;
+        padding: 0 4px 0 10px;
+    }
+    &__btn {
+        padding: 5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 75%;
+    }
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=latin-ext');
+
+.wrapper {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  max-width: 400px;
+  background: linear-gradient(0deg, rgb(183, 221, 220), #80CC7E);
+}
+
+.header {
+  padding: 10px;
+  &__title {
+    padding: 5px 0 10px 0;
+    margin: 0;
+  }
+}

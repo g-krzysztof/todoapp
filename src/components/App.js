@@ -60,9 +60,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <header>
-          <h2 className="header__title">Lista rzeczy do zrobienia</h2>
+      <div className="wrapper">
+        <header className="header">
+          <h2 className="header__title">Dodaj zadanie do zrobienia</h2>
           <AddTask add={this.addTask} />
         </header>
 

@@ -49,18 +49,15 @@ class AddTask extends Component {
             <>
                 <div className="form">
                     <input className="form__input-task" type="text" placeholder="wpisz nowe zadanie..." value={this.state.text} onChange={this.handleText} />
-                    <div className="form__priority">
+                    <div className="form__wrapper">
+                        <label className="form__priority-text" htmlFor="important">priorytet?</label>
                         <input className="form__priority-checkbox" type="checkbox" checked={this.state.checked} id="important" onChange={this.handleCheck} />
-                        <label className="form__priority-text" htmlFor="important">zaznacz priorytet</label>
-                    </div>
-                    <div className="form__date">
-                        <label className="form__date-text" htmlFor="date">do kiedy zrobić?</label>
+                        <label className="form__date-text" htmlFor="date">do kiedy?</label>
                         <input className="form__date-picker" type="date" value={this.state.date} min={this.minDate} max={maxDate} onChange={this.handleDate} />
                     </div>
                     <button className="form__btn" onClick={this.handleClick}>Dodaj zadanie</button>
 
                 </div>
-                <hr className="hr" />
             </>
         );
     }
