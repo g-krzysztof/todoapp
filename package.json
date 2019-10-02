@@ -1,5 +1,5 @@
 {
-  "name": "007_react_todo_app",
+  "name": "react-todo-app-local-storage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
