@@ -1,7 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Simple ToDo App
+## Simple React ToDo App
 
 The application uses local storage for storing data.
 
 ## Online version
+
+[https://krzysztofg.pl/todoapp/](https://krzysztofg.pl/todoapp/)

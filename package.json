@@ -1,5 +1,6 @@
 {
   "name": "react-todo-app-local-storage",
+  "homepage": "https://krzysztofg.pl/todoapp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
