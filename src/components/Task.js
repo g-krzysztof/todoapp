@@ -14,9 +14,9 @@ const Task = (props) => {
         return (
             <div className="active__task">
                 <div className="active__text" style={important ? importantRed : null}> {text}</div>
-                do: <span style={{ paddingLeft: 10 }}>{date}</span>
-                <button className="active__done-btn" onClick={() => props.change(id)}>Zrobione</button>
-                <button className="active__delete-btn" onClick={() => props.delete(id)}>X</button>
+                <span className="active__date">do: {date}</span>
+                <button className="active__btn" onClick={() => props.change(id)}>Zrobione</button>
+                <button className="active__btn" onClick={() => props.delete(id)}>X</button>
             </div>
         );
     } else {
@@ -24,8 +24,8 @@ const Task = (props) => {
         return (
             <div className="done__task">
                 <div className="done__text">{text}</div>
-                <div className="done__text-date">zrobione {finish}</div>
-                <button className="done__delete-btn" onClick={() => props.delete(id)}>X</button>
+                <div className="done__date">zrobione {finish}</div>
+                <button className="done__btn" onClick={() => props.delete(id)}>X</button>
             </div>
         )
     }

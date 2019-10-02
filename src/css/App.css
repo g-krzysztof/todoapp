@@ -2,7 +2,7 @@
 .wrapper {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin: 20px auto 0 auto;
   max-width: 400px;
   background: -webkit-gradient(linear, left bottom, left top, from(#b7dddc), to(#80CC7E));
   background: linear-gradient(0deg, #b7dddc, #80CC7E);

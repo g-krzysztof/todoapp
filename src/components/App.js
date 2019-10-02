@@ -7,6 +7,7 @@ class App extends React.Component {
   state = {
     tasks: [
       { "id": "9117017221007238", "text": "przetestuj listę zadań", "date": "2020-10-02", "important": false, "active": true, "finishDate": null },
+      { "id": "9110072387017221", "text": "dodaj nowe zadanie", "date": "2020-10-02", "important": false, "active": true, "finishDate": null },
       { "id": "4165864470262548", "text": "wejdź na listę zadań", "date": "2019-10-02", "important": false, "active": false, "finishDate": 1570014946668 }
     ]
   }
